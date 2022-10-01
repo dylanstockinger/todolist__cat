@@ -1,0 +1,33 @@
+//variables
+$pink: #c96f6f;
+
+body {
+    background: $pink;
+}
+
+#cat {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#cauda {
+    width: 72px;
+    height: 79px;
+    animation: cauda 6s linear infinite;
+    transform-origin: right bottom;
+    transform-box: fill-box;
+}
+
+@keyframes cauda {
+    0% {
+        transform: rotate(-10deg);
+    }
+
+    50% {
+        transform: rotate(30deg);
+    }
+
+    100% {
+        transform: rotate(-10deg);
+    }
+}
