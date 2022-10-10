@@ -1,4 +1,4 @@
-@media(min-width: 350px) and (max-width: 2500px) {
+@media(min-width: 350px) and (max-width: 550) {
 
   * {
     padding: 0;
@@ -57,7 +57,932 @@
   h1 {
     margin-left: auto;
     margin-right: auto;
-    font-size: calc(0.5rem + 2.5vw);
+    font-size: calc(2rem + 2.5vw);
+    text-decoration: underline white;
+    width: 100%;
+  }
+
+  input {
+    background-color: rgb(218, 214, 214);
+    width: 40%;
+  }
+
+  button {
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+    color: white;
+    font-size: calc(0.8rem + 0.2vw);
+    height: 100%;
+  }
+
+  .checkbox>input {
+    opacity: 0;
+    position: absolute;
+    inset: 0;
+  }
+
+
+  .form-wrapper {
+    display: flex;
+    gap: 8px;
+    height: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .todo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+  }
+
+  #todo {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+
+  }
+
+  .todo-wrapper {
+    display: flex;
+    border-radius: 8px;
+    gap: 8px;
+
+  }
+
+}
+
+@media(min-width: 550) and (max-width: 750) {
+
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+
+
+
+  body {
+    background-color: rgb(177, 93, 121);
+    width: 100%;
+  }
+
+  .App {
+    text-align: center;
+  }
+
+  .checkbox {
+    border: 2px solid;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 16px;
+    color: white;
+    position: relative;
+  }
+
+
+
+  ::selection {
+    background-color: rgb(170, 231, 255);
+  }
+
+  .checkbox {
+    height: 2em;
+    width: 100%;
+
+  }
+
+  .todo-text {
+    font-size: calc(1.4rem + 0.5vw);
+    height: 1em;
+  }
+
+
+
+  .checkbox:focus-within {
+    border-color: rgb(0, 0, 0);
+  }
+
+  .button:active {
+    transform: scale(0.95);
+  }
+
+  h1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: calc(2rem + 2.5vw);
+    text-decoration: underline white;
+    width: 100%;
+  }
+
+  input {
+    background-color: rgb(218, 214, 214);
+    width: 40%;
+  }
+
+  button {
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+    color: white;
+    font-size: calc(0.8rem + 0.2vw);
+    height: 100%;
+  }
+
+  .checkbox>input {
+    opacity: 0;
+    position: absolute;
+    inset: 0;
+  }
+
+
+  .form-wrapper {
+    display: flex;
+    gap: 8px;
+    height: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .todo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+  }
+
+  #todo {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+
+  }
+
+  .todo-wrapper {
+    display: flex;
+    border-radius: 8px;
+    gap: 8px;
+
+  }
+
+}
+
+@media(min-width: 750px) and (max-width: 950) {
+
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+
+
+
+  body {
+    background-color: rgb(177, 93, 121);
+    width: 100%;
+  }
+
+  .App {
+    text-align: center;
+  }
+
+  .checkbox {
+    border: 2px solid;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 16px;
+    color: white;
+    position: relative;
+  }
+
+
+
+  ::selection {
+    background-color: rgb(170, 231, 255);
+  }
+
+  .checkbox {
+    height: 2em;
+    width: 100%;
+
+  }
+
+  .todo-text {
+    font-size: calc(1.4rem + 0.5vw);
+    height: 1em;
+  }
+
+
+
+  .checkbox:focus-within {
+    border-color: rgb(0, 0, 0);
+  }
+
+  .button:active {
+    transform: scale(0.95);
+  }
+
+  h1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: calc(2rem + 2.5vw);
+    text-decoration: underline white;
+    width: 100%;
+  }
+
+  input {
+    background-color: rgb(218, 214, 214);
+    width: 40%;
+  }
+
+  button {
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+    color: white;
+    font-size: calc(0.8rem + 0.2vw);
+    height: 100%;
+  }
+
+  .checkbox>input {
+    opacity: 0;
+    position: absolute;
+    inset: 0;
+  }
+
+
+  .form-wrapper {
+    display: flex;
+    gap: 8px;
+    height: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .todo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+  }
+
+  #todo {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+
+  }
+
+  .todo-wrapper {
+    display: flex;
+    border-radius: 8px;
+    gap: 8px;
+
+  }
+
+}
+
+
+@media(min-width: 950px) and (max-width: 1150px) {
+
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+
+
+
+  body {
+    background-color: rgb(177, 93, 121);
+    width: 100%;
+  }
+
+  .App {
+    text-align: center;
+  }
+
+  .checkbox {
+    border: 2px solid;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 16px;
+    color: white;
+    position: relative;
+  }
+
+
+
+  ::selection {
+    background-color: rgb(170, 231, 255);
+  }
+
+  .checkbox {
+    height: 2em;
+    width: 100%;
+
+  }
+
+  .todo-text {
+    font-size: calc(1.4rem + 0.5vw);
+    height: 1em;
+  }
+
+
+
+  .checkbox:focus-within {
+    border-color: rgb(0, 0, 0);
+  }
+
+  .button:active {
+    transform: scale(0.95);
+  }
+
+  h1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: calc(2rem + 2.5vw);
+    text-decoration: underline white;
+    width: 100%;
+  }
+
+  input {
+    background-color: rgb(218, 214, 214);
+    width: 40%;
+  }
+
+  button {
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+    color: white;
+    font-size: calc(0.8rem + 0.2vw);
+    height: 100%;
+  }
+
+  .checkbox>input {
+    opacity: 0;
+    position: absolute;
+    inset: 0;
+  }
+
+
+  .form-wrapper {
+    display: flex;
+    gap: 8px;
+    height: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .todo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+  }
+
+  #todo {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+
+  }
+
+  .todo-wrapper {
+    display: flex;
+    border-radius: 8px;
+    gap: 8px;
+
+  }
+
+}
+
+@media(min-width: 950px) and (max-width: 1150px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+
+
+
+  body {
+    background-color: rgb(177, 93, 121);
+    width: 100%;
+  }
+
+  .App {
+    text-align: center;
+  }
+
+  .checkbox {
+    border: 2px solid;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 16px;
+    color: white;
+    position: relative;
+  }
+
+
+
+  ::selection {
+    background-color: rgb(170, 231, 255);
+  }
+
+  .checkbox {
+    height: 2em;
+    width: 100%;
+
+  }
+
+  .todo-text {
+    font-size: calc(1.4rem + 0.5vw);
+    height: 1em;
+  }
+
+
+
+  .checkbox:focus-within {
+    border-color: rgb(0, 0, 0);
+  }
+
+  .button:active {
+    transform: scale(0.95);
+  }
+
+  h1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: calc(2rem + 2.5vw);
+    text-decoration: underline white;
+    width: 100%;
+  }
+
+  input {
+    background-color: rgb(218, 214, 214);
+    width: 40%;
+  }
+
+  button {
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+    color: white;
+    font-size: calc(0.8rem + 0.2vw);
+    height: 100%;
+  }
+
+  .checkbox>input {
+    opacity: 0;
+    position: absolute;
+    inset: 0;
+  }
+
+
+  .form-wrapper {
+    display: flex;
+    gap: 8px;
+    height: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .todo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+  }
+
+  #todo {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+
+  }
+
+  .todo-wrapper {
+    display: flex;
+    border-radius: 8px;
+    gap: 8px;
+
+  }
+
+}
+
+@media(min-width: 1150px) and (max-width: 1350px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+
+
+
+  body {
+    background-color: rgb(177, 93, 121);
+    width: 100%;
+  }
+
+  .App {
+    text-align: center;
+  }
+
+  .checkbox {
+    border: 2px solid;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 16px;
+    color: white;
+    position: relative;
+  }
+
+
+
+  ::selection {
+    background-color: rgb(170, 231, 255);
+  }
+
+  .checkbox {
+    height: 2em;
+    width: 100%;
+
+  }
+
+  .todo-text {
+    font-size: calc(1.4rem + 0.5vw);
+    height: 1em;
+  }
+
+
+
+  .checkbox:focus-within {
+    border-color: rgb(0, 0, 0);
+  }
+
+  .button:active {
+    transform: scale(0.95);
+  }
+
+  h1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: calc(2rem + 2.5vw);
+    text-decoration: underline white;
+    width: 100%;
+  }
+
+  input {
+    background-color: rgb(218, 214, 214);
+    width: 40%;
+  }
+
+  button {
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+    color: white;
+    font-size: calc(0.8rem + 0.2vw);
+    height: 100%;
+  }
+
+  .checkbox>input {
+    opacity: 0;
+    position: absolute;
+    inset: 0;
+  }
+
+
+  .form-wrapper {
+    display: flex;
+    gap: 8px;
+    height: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .todo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+  }
+
+  #todo {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+
+  }
+
+  .todo-wrapper {
+    display: flex;
+    border-radius: 8px;
+    gap: 8px;
+
+  }
+
+}
+
+
+@media(min-width: 1350px) and (max-width: 1550px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+
+
+
+  body {
+    background-color: rgb(177, 93, 121);
+    width: 100%;
+  }
+
+  .App {
+    text-align: center;
+  }
+
+  .checkbox {
+    border: 2px solid;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 16px;
+    color: white;
+    position: relative;
+  }
+
+
+
+  ::selection {
+    background-color: rgb(170, 231, 255);
+  }
+
+  .checkbox {
+    height: 2em;
+    width: 100%;
+
+  }
+
+  .todo-text {
+    font-size: calc(1.4rem + 0.5vw);
+    height: 1em;
+  }
+
+
+
+  .checkbox:focus-within {
+    border-color: rgb(0, 0, 0);
+  }
+
+  .button:active {
+    transform: scale(0.95);
+  }
+
+  h1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: calc(2rem + 2.5vw);
+    text-decoration: underline white;
+    width: 100%;
+  }
+
+  input {
+    background-color: rgb(218, 214, 214);
+    width: 40%;
+  }
+
+  button {
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+    color: white;
+    font-size: calc(0.8rem + 0.2vw);
+    height: 100%;
+  }
+
+  .checkbox>input {
+    opacity: 0;
+    position: absolute;
+    inset: 0;
+  }
+
+
+  .form-wrapper {
+    display: flex;
+    gap: 8px;
+    height: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .todo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+  }
+
+  #todo {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+
+  }
+
+  .todo-wrapper {
+    display: flex;
+    border-radius: 8px;
+    gap: 8px;
+
+  }
+
+}
+
+@media(min-width: 1550px) and (max-width: 1750px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+
+
+
+  body {
+    background-color: rgb(177, 93, 121);
+    width: 100%;
+  }
+
+  .App {
+    text-align: center;
+  }
+
+  .checkbox {
+    border: 2px solid;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 16px;
+    color: white;
+    position: relative;
+  }
+
+
+
+  ::selection {
+    background-color: rgb(170, 231, 255);
+  }
+
+  .checkbox {
+    height: 2em;
+    width: 100%;
+
+  }
+
+  .todo-text {
+    font-size: calc(1.4rem + 0.5vw);
+    height: 1em;
+  }
+
+
+
+  .checkbox:focus-within {
+    border-color: rgb(0, 0, 0);
+  }
+
+  .button:active {
+    transform: scale(0.95);
+  }
+
+  h1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: calc(2rem + 2.5vw);
+    text-decoration: underline white;
+    width: 100%;
+  }
+
+  input {
+    background-color: rgb(218, 214, 214);
+    width: 40%;
+  }
+
+  button {
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+    color: white;
+    font-size: calc(0.8rem + 0.2vw);
+    height: 100%;
+  }
+
+  .checkbox>input {
+    opacity: 0;
+    position: absolute;
+    inset: 0;
+  }
+
+
+  .form-wrapper {
+    display: flex;
+    gap: 8px;
+    height: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .todo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+  }
+
+  #todo {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+
+  }
+
+  .todo-wrapper {
+    display: flex;
+    border-radius: 8px;
+    gap: 8px;
+
+  }
+
+}
+
+@media(min-width: 1750px) and (max-width: 1950px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+
+
+
+  body {
+    background-color: rgb(177, 93, 121);
+    width: 100%;
+  }
+
+  .App {
+    text-align: center;
+  }
+
+  .checkbox {
+    border: 2px solid;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 16px;
+    color: white;
+    position: relative;
+  }
+
+
+
+  ::selection {
+    background-color: rgb(170, 231, 255);
+  }
+
+  .checkbox {
+    height: 2em;
+    width: 100%;
+
+  }
+
+  .todo-text {
+    font-size: calc(1.4rem + 0.5vw);
+    height: 1em;
+  }
+
+
+
+  .checkbox:focus-within {
+    border-color: rgb(0, 0, 0);
+  }
+
+  .button:active {
+    transform: scale(0.95);
+  }
+
+  h1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: calc(2rem + 2.5vw);
     text-decoration: underline white;
     width: 100%;
   }
