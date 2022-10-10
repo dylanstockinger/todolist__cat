@@ -1,4 +1,4 @@
-@media(min-width: 350px) and (max-width: 1388px) {
+@media(min-width: 350px) and (max-width: 2500px) {
 
   * {
     padding: 0;
@@ -27,10 +27,7 @@
     position: relative;
   }
 
-  input {
-    /* font-size: calc(2rem + 10vw); */
-    width: 100%;
-  }
+
 
   ::selection {
     background-color: rgb(170, 231, 255);
@@ -44,7 +41,7 @@
 
   .todo-text {
     font-size: calc(1.4rem + 0.5vw);
-    height: 100%;
+    height: 1em;
   }
 
 
@@ -58,18 +55,16 @@
   }
 
   h1 {
-    position: relative;
-    left: 1.3em;
     margin-left: auto;
     margin-right: auto;
-    font-size: calc(1rem + 2.5vw);
+    font-size: calc(0.5rem + 2.5vw);
     text-decoration: underline white;
     width: 100%;
   }
 
   input {
     background-color: rgb(218, 214, 214);
-    width: 100%;
+    width: 40%;
   }
 
   button {
