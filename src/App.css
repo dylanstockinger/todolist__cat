@@ -1,3 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* 
+  color: #5a2424; */
+}
+
+
 body {
   background-color: rgb(177, 93, 121);
 }
@@ -17,7 +25,8 @@ body {
 }
 
 input {
-  font-size: 1.5em;
+  /* font-size: calc(2rem + 10vw); */
+  width: 100%;
 }
 
 ::selection {
@@ -49,7 +58,7 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   width: 8em;
-  font-size: 6em;
+  font-size: calc(1rem + 5vw);
   text-decoration: underline white;
 
 }
