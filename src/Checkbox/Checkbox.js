@@ -9,7 +9,7 @@ const Checkbox = () => {
        
     }
     return <div className='checkbox'>
-      <input type="checkbox" checked={checked} onChange={onChange} />
+      <input className="input_time" type="checkbox" checked={checked} onChange={onChange} />
   
     </div>
   };
